@@ -22,7 +22,7 @@ public class StringTest {
 
   @Test
   public void test02() {
-    boolean email = StringUtil.isEmail("2803708611@qq.com");
+    boolean email = StringUtil.isEmail(" ");
     System.out.println(email);
   }
 }
